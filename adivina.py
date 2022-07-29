@@ -22,7 +22,7 @@ def turnoComp(x):
         if low != high:
             guess = random.randint(low, high)
         else:
-            guess = low  # could also be high b/c low = high
+            guess = low  # Aqaui tambien puede ser High ya que tiene el mismo valor
         feedback = input(f'es el numero {guess} muy alto (H), muy bajo (L), o es el correcto (C)?? ').lower()
         if feedback == 'h':
             high = guess - 1
